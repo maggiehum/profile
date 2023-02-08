@@ -1,0 +1,106 @@
+body{
+  background-color: #FCD5CE;
+}
+
+h1, h2, h3{
+  color: #2d2c2f;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+}
+
+p {
+  color: #5f5e61;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+img {
+  width: 180px;
+  height: 180px;
+  border-radius: 150px;
+  margin: 0 auto;
+}
+
+a {
+  display: block;
+  text-align: center;
+  color: #aea7ab;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+a:hover {
+  color: #b5838b;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+li {
+  height: 40px;
+  font-size: 40px;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+.card {
+  background-color: #F8EDEB;
+  border-radius: 5px;
+  width: 800px;
+  margin: 25px auto;
+  box-shadow: 2px 2px 10px gray;
+  padding: 18px;
+  text-align: center;
+}
+
+.fa-brands{
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.btn{
+  color: #ece6e6;
+  background-color: #b5838b;
+  font-weight: 800;
+  height: 50px;
+  width: 200px;
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+  border-radius: 3px;
+  border: 1px;
+  box-shadow: 2px 2px 10px gray;
+}
+
+.btn:hover{
+  color: #2d2c2f;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
